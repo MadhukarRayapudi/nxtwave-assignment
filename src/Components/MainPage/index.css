@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: #FFF7E2;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.navbar-items-container{
+    display: flex;
+}
+
+.navbar-item{
+    font-family: roboto;
+    font-weight: 500;
+    color: #474747;
+    list-style-type: none;
+    margin-right: 12px;
+}
+
+.navbar-item:hover{
+    font-weight: bold;
+}
+
+.navbar-item-active{
+    font-family: roboto;
+    font-weight: bold;
+    color: #3A643B;
+    list-style-type: none;
+    margin-right: 12px;
+}
+
+.login-btn{
+    background-color: transparent;
+    border: 1px solid #3A643B;
+    color: #3A643B;
+    font-family: roboto;
+    padding: 12px;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.login-btn:hover{
+    background-color: #3A643B;
+    color: #fff;
+}
+
+.signup-btn{
+    background-color: #3A643B;
+    border: 0;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: roboto;
+}
+
+.signup-btn:hover{
+    background-color: #ffffff;
+    color: #3A643B;
+    border: 1px solid #3A643B;
+}
+
+.about-container{
+    width: 90%;
+    border-radius: 8px;
+    align-self: center;
+    background-color: #FFFBF2;
+}
+
+.cover-pic{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.personal-details-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-pic{
+    margin-top: -30px;
+}
+
+.name{
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.name-and-rating-container{
+    margin-left: 8px;
+}
+
+.side-heading-and-result-container{
+    margin-left: 32px;
+    text-align: center;
+}
+
+.side-heading{
+    font-family: roboto;
+    color: #3A643B;
+}
+
+.result{
+    font-family: roboto;
+    font-weight: bold;
+    color: #212529;
+}
+
+.little-bit-about-me-container{
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin: 18px;
+    width: 80%;
+}
+
+.heading-and-btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F7EC;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+}
+
+.little-bit-heading{
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 600;
+    font-weight: 500;
+}
+
+.follow-btn{
+    background-color: transparent;
+    border: 1px solid #3A643B;
+    border-radius: 8px;
+    height: 30px;
+    font-family: roboto;
+}
+
+.follow-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.about-me{
+    font-family: roboto;
+    color: #33354880;
+    padding: 8px;
+}
+
+.read-more{
+    text-decoration: underline;
+    text-align: right;
+    margin-right: 8px;
+}
+
+.line-and-para-container{
+    display: flex;
+}
+
+.languages-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+.language-heading{
+    font-family: roboto;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+.language{
+    font-family: roboto;
+    color: #505050;
+    font-size: 14px;
+}
+
+.icons-container{
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media-icon{
+    margin-right: 8px;
+}
+
+.img-and-name-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.name{
+    font-family: roboto;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.concern-name{
+    font-family: roboto;
+    font-size: 14px;
+    color: #3A643B;
+    background-color: #F4F7EC;
+    border-radius: 14px;
+    padding: 8px;
+    margin-right: 4px;
+    margin: 4px;
+}
+
+.concerns-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 14px;
+}
+
+.practice-description{
+    font-family: roboto;
+    font-size: 16px;
+    color: #3A643B;
+    font-weight: 600;
+    margin: 8px;
+}
+
+.experience-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.clinic-img{
+    width: 15%;
+}
+
+.clinic-name{
+    font-family: roboto;
+    font-weight: 500;
+    color: #333548;
+}
+
+.post-name{
+    color: #33354880;
+    font-weight: 500;
+}
+
+.duration{
+    font-family: roboto;
+    color: #333548B5;
+}
+
+.review-container{
+    background-color: #FAFAFA;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.reviewer-details-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.reviewer-pic{
+    margin-top: 12px;
+    margin-right: 8px;
+}
+
+.reviewer-pic-details-container{
+    display: flex;
+}
+
+.reviewer-name{
+    font-family: roboto;
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.consulted-for-heading{
+    font-family: roboto;
+    color: #939393;
+    font-size: 15px;
+}
+
+.consulted-date{
+    color: #979797;
+    font-family: roboto;
+}
+
+.rating-img{
+    margin: 8px;
+}
+
+.review{
+    font-family: roboto;
+    color: #2E2F2E;
+    padding: 12px;
+}
+
+.parent-container{
+    width: 100%;
+    display: flex;
+}
+
+.appointment-details-container{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    width: 50%;
+    padding: 18px;
+    margin-top: 14px;
+}
+
+.about-me-details-container{
+    width: 100%;
+}
+
+.appointment-fee-container{
+    border: 1px solid #E2E2E2;
+    padding: 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment-fee-heading{
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.appointment-fee{
+    font-family: roboto;
+    color: #3A643B;
+    font-weight: 600;
+}
+
+.select-mode-heading{
+    font-family: roboto;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.modes-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mode{
+    text-align: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 8px;
+}
+
+.mode-heading{
+    font-family: roboto;
+    font-size: 14px;
+    color: #1F1F1F;
+    font-weight: bold;
+}
+
+.mode-duration{
+    font-family: roboto;
+    font-size: 14px;
+    color: #606060;
+}
+
+.slots-container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #E5E5E5;
+}
+
+.slot{
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 6px;
+}
+
+.date{
+    font-family: roboto;
+    font-size: 14px;
+    color: #131313;
+    font-weight: 400;
+}
+
+.slots-available{
+    font-family: roboto;
+    font-size: 14px;
+    color: #818181;
+}
+
+.slot-times-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.time-container{
+    border: 1px solid #E5E5E5;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 4px;
+}
+
+.time-container:hover{
+    background-color: #3A643B;
+    color: #fff;
+}
+
+.make-an-appointment-btn{
+    background-color: #3A643B;
+    border: 0;
+    border-radius: 8px;
+    font-family: roboto;
+    color: #fff;
+    width: 80%;
+    align-self: center;
+    padding: 12px;
+}
